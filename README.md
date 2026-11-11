@@ -2,11 +2,21 @@
 
 <p>
   <img alt="Status: beta" src="https://img.shields.io/badge/status-beta-yellow">
-  <a href="https://github.com/TechnikWeber/DnfSetup/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/TechnikWeber/DnfSetup?include_prereleases"></a>
+  <a href="https://github.com/TechnikWeber/DnfSetup/releases/latest"><img alt="Download" src="https://img.shields.io/github/v/release/TechnikWeber/DnfSetup?include_prereleases&label=download&color=2ea44f"></a>
+  <a href="https://github.com/TechnikWeber/DnfSetup/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/TechnikWeber/DnfSetup/total?color=blue"></a>
+  <a href="https://github.com/TechnikWeber/DnfSetup/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/TechnikWeber/DnfSetup?style=flat&color=yellow"></a>
   <a href="https://github.com/TechnikWeber/DnfSetup/actions/workflows/ci.yml"><img alt="Build" src="https://img.shields.io/github/actions/workflow/status/TechnikWeber/DnfSetup/ci.yml?branch=main&label=build"></a>
   <img alt="Platform: Fedora 45" src="https://img.shields.io/badge/platform-Fedora%2045-blue">
   <img alt="UI: English | Deutsch" src="https://img.shields.io/badge/UI-English%20%7C%20Deutsch-informational">
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-green"></a>
+</p>
+
+<p>
+  <a href="https://github.com/TechnikWeber/DnfSetup/releases/latest"><b>Download</b></a> &nbsp;·&nbsp;
+  <a href="#download"><b>Install</b></a> &nbsp;·&nbsp;
+  <a href="https://technikweber.github.io/2026/fedora-einrichten-und-aktuell-halten/"><b>Blog post (German)</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/TechnikWeber/DnfPilot"><b>Keep it updated: DnfPilot</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/TechnikWeber/DnfSetup/releases"><b>Releases</b></a>
 </p>
 
 Set up Fedora after installation from one window: firmware, RPM Fusion,
