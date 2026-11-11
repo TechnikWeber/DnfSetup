@@ -4,7 +4,6 @@
   <img alt="Status: beta" src="https://img.shields.io/badge/status-beta-yellow">
   <a href="https://github.com/TechnikWeber/DnfSetup/releases/latest"><img alt="Download" src="https://img.shields.io/github/v/release/TechnikWeber/DnfSetup?include_prereleases&label=download&color=2ea44f"></a>
   <a href="https://github.com/TechnikWeber/DnfSetup/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/TechnikWeber/DnfSetup/total?color=blue"></a>
-  <a href="https://github.com/TechnikWeber/DnfSetup/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/TechnikWeber/DnfSetup?style=flat&color=yellow"></a>
   <a href="https://github.com/TechnikWeber/DnfSetup/actions/workflows/ci.yml"><img alt="Build" src="https://img.shields.io/github/actions/workflow/status/TechnikWeber/DnfSetup/ci.yml?branch=main&label=build"></a>
   <img alt="Platform: Fedora 45" src="https://img.shields.io/badge/platform-Fedora%2045-blue">
   <img alt="UI: English | Deutsch" src="https://img.shields.io/badge/UI-English%20%7C%20Deutsch-informational">
