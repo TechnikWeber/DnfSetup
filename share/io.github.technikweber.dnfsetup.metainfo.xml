@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.technikweber.dnfsetup</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>DnfSetup</name>
+  <summary>Set up Fedora after installation: firmware, RPM Fusion, codecs, drivers, Flathub</summary>
+  <description>
+    <p>
+      The usual post-install checklist for Fedora KDE as one window: update the
+      system and firmware, enable RPM Fusion, full multimedia codecs, video
+      acceleration for Intel and AMD, the NVIDIA driver matching your card, Flathub
+      without its filter, and extras like Microsoft fonts or DVD playback.
+    </p>
+    <p>
+      It shows which steps are already done, asks for your password once and
+      runs the rest with a progress bar. Checked on Fedora 45.
+    </p>
+  </description>
+  <launchable type="desktop-id">dnfsetup.desktop</launchable>
+  <url type="homepage">https://github.com/TechnikWeber/DnfSetup</url>
+  <url type="bugtracker">https://github.com/TechnikWeber/DnfSetup/issues</url>
+  <developer id="io.github.technikweber">
+    <name>Philipp Weber</name>
+  </developer>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/TechnikWeber/DnfSetup/main/docs/screenshot.png</image>
+    </screenshot>
+  </screenshots>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="0.1.0" date="2026-11-11"/>
+  </releases>
+</component>

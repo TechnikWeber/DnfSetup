@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Name=DnfSetup
+GenericName=Post-install setup
+GenericName[de]=Einrichtung nach der Installation
+Comment=Set up Fedora after installation: firmware, RPM Fusion, codecs, graphics drivers, Flathub
+Comment[de]=Fedora nach der Installation einrichten: Firmware, RPM Fusion, Codecs, Grafiktreiber, Flathub
+Exec=dnfsetup
+Icon=dnfsetup
+Terminal=false
+Categories=System;PackageManager;
+Keywords=setup;codecs;rpmfusion;nvidia;flathub;firmware;
+Keywords[de]=einrichtung;codecs;rpmfusion;nvidia;flathub;firmware;
+StartupNotify=true
+StartupWMClass=dnfsetup

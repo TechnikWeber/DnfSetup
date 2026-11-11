@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dnfsetup"
+dynamic = ["version"]
+description = "Set up Fedora after installation: firmware, RPM Fusion, codecs, drivers, Flathub"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Philipp Weber" }]
+keywords = ["fedora", "dnf", "setup", "codecs", "rpmfusion", "nvidia", "qt"]
+classifiers = [
+    "Environment :: X11 Applications :: Qt",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Topic :: System :: Software Distribution",
+]
+dependencies = ["PySide6>=6.5"]
+
+[project.urls]
+Homepage = "https://github.com/TechnikWeber/DnfSetup"
+
+[project.gui-scripts]
+dnfsetup = "dnfsetup.app:main"
+
+[tool.setuptools]
+packages = ["dnfsetup"]
+
+[tool.setuptools.dynamic]
+version = { attr = "dnfsetup.__version__" }
+
+[tool.setuptools.package-data]
+dnfsetup = ["helper.sh", "dnfsetup.svg"]
